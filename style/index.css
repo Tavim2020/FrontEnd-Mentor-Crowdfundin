@@ -71,12 +71,13 @@ main .container-mastercraft{
     border-bottom-right-radius: 0.6vw;
     position: relative;
     margin-top: -10.4vw;
+    margin-bottom: 2vw;
 }
 
 main .container-mastercraft #mastercraft{
     width: 4.4vw;
     position: absolute;
-    top: -10%;
+    top: -12.5%;
 }
 
 .container-mastercraft .master-container-top{
@@ -134,13 +135,18 @@ main .container-mastercraft #mastercraft{
 /* botao da esquerda do primeiro container */
 .button-backProject{
     width: 16.4vw;
-    background-color: #157A74;
+    background-color: #3CB4AB;
     height: 4.4vw;
     border-radius: 2.4vw;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-backProject:hover{
+    background-color: #157A72;
 }
 
 .button-backProject a{
@@ -162,7 +168,6 @@ main .container-mastercraft #mastercraft{
     width: 4.5vw;
     margin-right: 1.2vw;
     cursor: pointer;
-    text-shadow: #BAEDE7 1px 10px;
 }
 
 .container-button-bookmark a{
@@ -170,4 +175,254 @@ main .container-mastercraft #mastercraft{
     font-size: 1.2vw;
     font-weight: 500;
     text-shadow: #BAEDE7 0px 0px;
+}
+
+
+/* segundo container dos valores */
+.secondContainer{
+    margin: 0 auto;
+    width: 51.7%;
+    height: 16.1vw;
+    border-top-left-radius: 0.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 0.2vw solid #f5f5f5;
+}
+
+.container-cash{
+    width: 86.7%;
+    height: 50%;
+    display: flex;
+    margin-top: 4vw;
+}
+
+.container-cash .total-cash{
+    width: 14vw;
+}
+
+.container-cash .total-cash strong{
+    width: 9.6vw;
+    font-size: 2.5vw;
+}
+
+.container-cash .total-cash p{
+    font-size: 1.2vw;
+    color: #8A8A8A;
+}
+
+.container-cash .bar-height{
+    width: 0.08vw;
+    height: 5vw;
+    background-color: #DBDBDB;
+}
+
+.container-cash .total-backers{
+    width: 10.5vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.6vw;
+}
+
+.container-cash .total-backers strong{
+    width: 9.6vw;
+    font-size: 2.5vw;
+}
+
+.container-cash .total-backers p{
+    font-size: 1.2vw;
+    color: #8A8A8A;
+}
+
+.container-cash .days-left{
+    flex: 1;
+    margin-left: 3.9vw;
+}
+
+.container-cash .days-left strong{
+    width: 9.6vw;
+    font-size: 2.5vw;
+}
+
+.container-cash .days-left p{
+    font-size: 1.2vw;
+    color: #8A8A8A;
+}
+
+
+/* barra de carregamento */
+.container-loading-bar{
+    width: 86.7%;
+    height: 1.04vw;
+    background-color: #F4F4F4;
+    border-radius: 2.4vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-loading-bar span{
+    width: 34.8vw;
+    height: 100%;
+    background-color: #35B6AA;
+    border-radius: 2.4vw;
+}
+
+/* terceiro container o principal com os valores e escritos */
+.tree-container{
+    margin: 0 auto;
+    width: 51.7%;
+    height: 100%;
+    border-top-left-radius: 0.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 0.2vw solid #f5f5f5;
+    margin-top: 1.7vw;
+}
+
+.container-text{
+    margin: 0 auto;
+    width: 86.7%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.4vw;
+}
+
+.container-text h3{
+    margin-bottom: 2.4vw;
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+
+.container-text p:nth-child(2){
+    color: #8A8A8A;
+    font-size: 1.14vw;
+    line-height: 1.7vw;
+    margin-bottom: 2vw;
+}
+
+.container-text p:nth-child(3){
+    color: #8A8A8A;
+    font-size: 1.1vw;
+    line-height: 1.7vw;
+    margin-bottom: 2vw;
+}
+
+
+/* os três containers que se repetem */
+.container-geral-tree{
+    margin: 0 auto;
+    width: 86.7%;
+    height: 16vw;
+    border: 1px solid #DBDBDB;
+    border-top-left-radius: 0.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    margin-bottom: 1.7vw;
+}
+
+.container-title{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+.container-title h3{
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #000;
+}
+
+.container-title p{
+    font-size: 1.2vw;
+    color: #7CBBB7;
+    text-shadow: 1px 0px #C4FFFF;
+}
+
+
+/* container do texto do centro dos tres containers identicos */
+.container-text-p{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container-text-p p{
+    color: #8A8A8A;
+    font-size: 1.1vw;
+    line-height: 1.7vw;
+}
+
+
+/* container aonde fica o botao e o text left dos três container identicos*/
+.container-number-button{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number-left{
+    display: flex;
+    align-items: center;
+}
+
+.number-left strong{
+    font-size: 2vw;
+}
+
+.number-left h5{
+    font-weight: 300;
+    color: #8A8A8A;
+    margin-left: 0.3vw;
+}
+
+.button-select{
+    width: 12vw;
+    height: 3.4vw;
+    background-color: #3CB4AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.4vw;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button-select:hover{
+    background-color: #147B74;
+}
+
+.button-select a{
+    color: #DBFFFF;
+    text-shadow: 1px 0px #C5EEE9;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+/* adicionando opacidade no terceiro container identico */
+.container-geral-tree:nth-child(4){
+    opacity: 0.4;
+}
+
+.container-geral-tree:nth-child(4) .button-select{
+    background-color: rgb(163, 147, 147);
+}
+
+.container-geral-tree:nth-child(4) .button-select a{
+    color: #fff;
+    text-shadow: none;
 }
