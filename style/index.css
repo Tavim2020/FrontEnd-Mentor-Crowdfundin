@@ -54,6 +54,7 @@ header{
 main{
     width: 100vw;
     height: 100%;
+    padding-bottom: 8vw;
 }
 
 /* primeiro container */
@@ -160,18 +161,19 @@ main .container-mastercraft #mastercraft{
     display: flex;
     align-items: center;
     width: 15.3vw;
-    background-color: #F4F8F9;
+    background-color: #F4F4F4;
     border-radius: 2.4vw;
+    cursor: pointer;
 }
 
 .container-button-bookmark img{
     width: 4.5vw;
     margin-right: 1.2vw;
-    cursor: pointer;
+    
 }
 
 .container-button-bookmark a{
-    color: #217169;
+    color: #7B7B7B;
     font-size: 1.2vw;
     font-weight: 500;
     text-shadow: #BAEDE7 0px 0px;
@@ -216,10 +218,12 @@ main .container-mastercraft #mastercraft{
 }
 
 .container-cash .bar-height{
-    width: 0.08vw;
+    width: 0.1vw;
     height: 5vw;
     background-color: #DBDBDB;
 }
+
+
 
 .container-cash .total-backers{
     width: 10.5vw;
@@ -427,3 +431,349 @@ main .container-mastercraft #mastercraft{
     color: #fff;
     text-shadow: none;
 }
+
+
+/* Modal */
+.modal{
+    margin: 0 auto;
+    width: 52.2%;
+    border-top-left-radius: 0.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 1.2vw;
+    position: absolute;
+    top: 27%;
+    left: 24.5%;
+}
+
+
+.modal .opacity{
+    opacity: 0.3;
+}
+
+/* container do titulo do modal */
+.title-modal{
+    margin: 0 auto;
+    width: 86.7%;
+    padding-top: 3.8vw;
+    margin-bottom: 2.6vw;
+}
+
+.title-modal h3{
+    font-size: 1.6vw;
+    margin-bottom: 1.2vw;
+}
+
+
+.title-modal p{
+    font-size: 1.14vw;
+    color: #838383;
+}
+
+/* botão de fechar o modal */
+.button-close-modal{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    cursor: pointer;
+}
+
+/* primeiro container sem a parte de clicar apos clicar no input */
+.container-first{
+    margin: 0 auto;
+    width: 86.7%;
+    height: 10vw;
+    border-top-left-radius: 0.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    border: 1px solid #ECECEC;
+    margin-bottom: 1.4vw;
+}
+
+.container-first p{
+    margin-left: 4.4vw;
+    width: 40.3vw;
+    font-size: 1.1vw;
+    margin-top: 1.2vw;
+    color: #838383;
+    line-height: 1.7vw;
+}
+
+.container-selection{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    margin-top: 2vw;
+}
+
+.container-selection h5{
+    font-size: 1vw;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.container-selection h5:hover{
+    color: #64A399;
+}
+
+/* input radio */
+.inputRadio{
+    width: 1.4vw;
+    height: 1.4vw;
+    border: 0.08vw solid #879F99;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.8vw;
+}
+
+
+.inputRadio span{
+    margin: 0 auto;
+    width: 55%;
+    height: 55%;
+    border-radius: 50%;
+    background-color: #3BB4AF;
+}
+
+
+
+/* tres container identicos seguidos do primeiro */
+.container-default-modal{
+    margin: 0 auto;
+    width: 86.7%;
+    height: 100%;
+    border-top-left-radius: 0.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    border: 1px solid #ECECEC;
+    margin-bottom: 1.4vw;
+}
+
+
+.main-container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main-container p{
+    margin-left: 2.4vw;
+    width: 38.3vw;
+    font-size: 1.09vw;
+    margin-top: 1.2vw;
+    color: #838383;
+    line-height: 1.7vw;
+    margin-bottom: 2vw;
+}
+
+.container-main-selection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-selection-top-left{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    margin-top: 2vw;
+}
+
+.container-selection-top-left h5{
+    font-size: 1vw;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.event-h5{
+    pointer-events: none;
+}
+
+.container-selection-top-left h5:nth-child(2){
+    margin-right: 1vw;
+    
+}
+
+.container-selection-top-left h5:nth-child(2):hover{
+    color: #64A399;
+}
+
+.container-selection-top-left h5:nth-child(3){
+    color: #64A399;
+}
+
+.container-selection-top-right{
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.container-selection-top-right h5{
+    font-size: 1vw;
+}
+
+.container-selection-top-right h5:nth-child(2){
+    color: #ABABAB;
+    margin-left: 0.3vw;
+}
+
+
+/* hr estilizando */
+.hr{
+    width: 100%;
+    height: 0.16vw;
+    display: flex;
+    background-color: #EBEBEB;
+}
+
+
+/* container aonde se clicar no input aparece */
+.container-clicked{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2vw;
+    
+}
+
+
+/* mensagem enter */
+.enter-pledge{
+    width: 8vw;
+    height: 3.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6vw;
+}
+
+.enter-pledge p{
+    font-size: 1vw;
+    color: #A8A8A8;
+}
+
+/* container monay */
+.button-money-confirm{
+    margin-top: 1.6vw;
+    display: flex;
+}
+
+.money{
+    width: 8vw;
+    height: 3.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.4vw;
+    border: 0.16vw solid #EBEBEB;
+    margin-right: 1vw;
+}
+
+.money h5{
+    color : #C0C0C0;
+    font-size: 1vw;
+    margin-right: 0.7vw;
+}
+
+.money strong{
+    font-size: 1vw;
+}
+
+
+
+/* sgundo botao continue */
+.confirm{
+    width: 8.04vw;
+    height: 3.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.4vw;
+    margin-right: 1vw;
+    background-color: #3CB4AC;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.confirm:hover{
+    background-color: #177973;
+}
+
+.confirm p{
+    color: #E0FFFF;
+    font-size: 1vw;
+}
+
+
+/* Submodal de confirmação*/
+.subModal{
+    margin: 0 auto;
+    width: 39%;
+    height: 30vw;
+    background-color: #fff;
+    border-top-left-radius: 0.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.0001vw solid #EFEFEF;
+    position: absolute;
+    top: 70%;
+    left: 31%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.subModal img{
+    margin-top: 3.4vw;
+    margin-bottom: 4vw;
+    width: 6vw;
+}
+
+.subModal h3{
+    font-size: 1.6vw;
+    margin-bottom: 1.6vw;
+}
+
+.subModal p{
+    width: 33vw;
+    text-align: center;
+    font-size: 1.2vw;
+    color: #858585;
+    margin-bottom: 3vw;
+}
+
+.button-gotIt{
+    width: 8vw;
+    height: 3.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3CB4AC;
+    border-radius: 2.4vw;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button-gotIt:hover{
+    background-color: #177973;
+}
+
+.button-gotIt h4{
+    font-size: 1vw;
+    color: #E4FFFF;
+}
+
