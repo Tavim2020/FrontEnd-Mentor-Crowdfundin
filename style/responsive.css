@@ -21,6 +21,10 @@
         width: 30vw;
     }
 
+    .menu-img{
+        width: 4.5vw;   
+    }
+
     .container-header nav ul{
         display: none;
        
@@ -97,16 +101,19 @@
     
     /* botao da direita do primeiro container */
     .container-button-bookmark{
-        width: 11vw;
+        width: 10vw;
         background-color: #fff;
+        flex: none;
         border-radius: 50%;
         cursor: pointer;
+        display: flex;
+        justify-content: center;
     }
     
     .container-button-bookmark img{
-        width: 11vw;
-        margin-right: 0;
-        margin-left: -3vw;
+        width: 10vw;
+        margin-right: 0vw;
+        border-radius: 50%;
     }
     
     .container-button-bookmark a{
@@ -600,11 +607,6 @@
         font-size: 3.55vw;
     }
 
-    .menu-img{
-        width: 4.5vw;
-        position: absolute;
-        top: 8.5%;
-        right: 5%;
-    }
+    
 
 }
