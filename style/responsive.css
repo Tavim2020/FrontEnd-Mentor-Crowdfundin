@@ -1,0 +1,610 @@
+@media only screen and (min-width: 981px){
+    .hidden{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    
+    header{
+        height: 80vw;
+        background-image: url(../images/image-hero-mobile.jpg);
+    }
+    
+    .container-header{
+        width: 86%;
+        height: 14.7vw;
+        padding-top: 8vw;
+    }
+    
+    .logo{
+        width: 30vw;
+    }
+
+    .container-header nav ul{
+        display: none;
+       
+    }
+    
+    main{
+        padding-bottom: 16vw;
+    }
+    
+    /* primeiro container */
+    main .container-mastercraft{
+        width: 86%;
+        height: 49vw;
+        margin-top: -20.4vw;
+        margin-bottom: 4vw;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        border-radius: 2vw;
+    }
+    
+    main .container-mastercraft #mastercraft{
+        width: 9vw;
+        position: absolute;
+        top: -9.5%;
+    }
+    
+    .container-mastercraft .master-container-top{
+        height: 20.18vw;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+    }
+    
+    .container-mastercraft .master-container-top h2{
+        margin-bottom: 3vw;
+        font-size: 4.4vw;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .container-mastercraft .container-p{
+        width: 100%;
+    } 
+    
+    .container-mastercraft .container-p p{
+        margin: 0 auto;
+        width: 86%;
+        line-height: 4.5vw;
+        font-size: 3.4vw;
+        text-align: center;
+    }
+    
+    .container-mastercraft .container-buttonMaster{
+        margin-top: 4.4vw;
+        border-bottom-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+    }
+    
+    .container-buttonMaster .container-master{
+        width: 79%;
+    }
+    
+    /* botao da esquerda do primeiro container */
+    .button-backProject{
+        width: 51vw;
+        height: 9vw;
+        border-radius: 5vw;
+    }
+    
+    .button-backProject a{
+        font-size: 2.8vw;
+    }
+    
+    /* botao da direita do primeiro container */
+    .container-button-bookmark{
+        width: 11vw;
+        background-color: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .container-button-bookmark img{
+        width: 11vw;
+        margin-right: 0;
+        margin-left: -3vw;
+    }
+    
+    .container-button-bookmark a{
+        display: none;
+    }
+    
+    
+    /* segundo container dos valores */
+    .secondContainer{
+        width: 86%;
+        height: 100%;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+    }
+    
+    .container-cash{
+        width: 79%;
+        height: 55vw;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vw;
+    }
+    
+    .container-cash .total-cash{
+        width: 25vw;
+    }
+    
+    .container-cash .total-cash strong{
+        width: 18vw;
+        font-size: 6vw;
+    }
+    
+    .container-cash .total-cash p{
+        font-size: 2.5vw;
+        margin-top: 1vw;
+    }
+    
+    .container-cash .bar-height{
+        width: 14.4vw;
+        height: 0.1vw;
+        margin-top: 2.5vw;
+    }
+    
+    
+    
+    .container-cash .total-backers{
+        width: 20vw;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 3.5vw;
+    }
+    
+    .container-cash .total-backers strong{
+        width: 18vw;
+        font-size: 6vw;
+    }
+    
+    .container-cash .total-backers p{
+        font-size:2.5vw;
+        margin-top: 1vw;
+    }
+    
+    .container-cash .days-left{
+        flex: 0;
+        width: 20vw;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 3.5vw;
+    }
+    
+    .container-cash .days-left strong{
+        width: 18vw;
+        font-size: 6vw;
+    }
+    
+    .container-cash .days-left p{
+        font-size: 2.5vw;
+        margin-top: 1vw;
+    }
+    
+    
+    /* barra de carregamento */
+    .container-loading-bar{
+        width: 79%;
+        height: 2.5vw;
+        margin-bottom: 7vw;
+    }
+    
+    /* terceiro container o principal com os valores e escritos */
+    .tree-container{
+        width: 86%;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        margin-top: 4vw;
+    }
+    
+    .container-text{
+        width: 79%;
+        margin-top: 4vw;
+    }
+    
+    .container-text h3{
+        margin-bottom: 4vw;
+        font-size: 4vw;
+    }
+    
+    .container-text p:nth-child(2){
+        font-size: 3.4vw;
+        line-height: 4vw;
+        margin-bottom: 2vw;
+    }
+    
+    .container-text p:nth-child(3){
+        font-size: 3.3vw;
+        line-height: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    
+    /* os três containers que se repetem */
+    .container-geral-tree{
+        width: 79%;
+        height: 75vw;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        margin-bottom: 4vw;
+    }
+    
+    .container-title{
+        margin-top: 4vw;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 5vw;
+    }
+    
+    .container-title h3{
+        font-size: 4vw;
+    }
+    
+    .container-title p{
+        font-size: 3.5vw;
+        margin-top: 1vw;
+    }
+    
+    
+    /* container do texto do centro dos tres containers identicos */
+    .container-text-p p{
+        font-size: 3.7vw;
+        line-height: 5vw;
+    }
+    
+    
+    /* container aonde fica o botao e o text left dos três container identicos*/
+    .container-number-button{
+        margin-top: 4vw;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    
+    .number-left strong{
+        font-size: 6vw;
+    }
+    
+    .number-left h5{
+        margin-left: 1vw;
+        font-size: 3vw;
+    }
+
+    .number-left{
+        margin-bottom: 5vw;
+    }
+    
+    .button-select{
+        width: 38vw;
+        height: 9vw;
+        border-radius: 5vw;
+    }
+    
+    .button-select a{
+        font-size: 2.5vw;
+    }
+    
+    
+    /* Modal */
+    .modal{
+        width: 86%;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        padding-bottom: 3vw;
+        position: absolute;
+        top: 28%;
+        left: 7%;
+    }
+    
+    /* container do titulo do modal */
+    .title-modal{
+        width: 90%;
+        padding-top: 5vw;
+        margin-bottom: 4vw;
+    }
+    
+    .title-modal h3{
+        font-size: 4vw;
+        margin-bottom: 3.5vw;
+    }
+    
+    
+    .title-modal p{
+        font-size: 3.6vw;
+    }
+    
+    /* botão de fechar o modal */
+    .button-close-modal{
+        top: 2.4%;
+        right: 8%;
+    }
+
+    .button-close-modal img{
+        width: 3vw;
+    }
+    
+    /* primeiro container sem a parte de clicar apos clicar no input */
+    .container-first{
+        width: 90%;
+        height: 53vw;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        border: 0.4vw solid #ECECEC;
+        margin-bottom: 4vw;
+    }
+
+    .container-first p{
+        margin-left: 4vw;
+        width: 65vw;
+        font-size: 4vw;
+        margin-top: 5vw;
+        line-height: 6vw;
+    }
+    
+    .container-selection{
+        margin-top: 6vw;
+    }
+    
+    .container-selection h5{
+        font-size: 3.5vw;
+    }
+    
+    /* input radio */
+    .inputRadio{
+        width: 5vw;
+        height: 5vw;
+        border: 0.3vw solid #879F99;
+        margin-right: 5.5vw;
+    }
+    
+
+    /* tres container identicos seguidos do primeiro */
+    .container-default-modal{
+        width: 90%;
+        height: 100%;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        border: 0.4vw solid #ECECEC;
+        margin-bottom: 4vw;
+    }
+    
+    
+    .main-container{
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .main-container p{
+        width: 66vw;
+        font-size: 4vw;
+        margin-top: 5vw;
+        line-height: 5vw;
+        margin-bottom: 5vw;
+        margin-left: 4vw;
+    }
+
+    .numberLeft{
+        margin-left: 4vw;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5vw;
+    }
+
+    .numberLeft h5:nth-child(1){
+        margin-right: 1vw;
+        font-size: 4vw;
+    }
+
+    .numberLeft h5:nth-child(2){
+        font-size: 4vw;
+        color: #8A8A8A;
+        font-weight: 300;
+    }
+    
+    .container-main-selection{
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .container-selection-top-left{
+        display: flex;
+        align-items: center;
+        margin-top: 5vw;
+    }
+    
+    .title-container{
+        margin-right: 1vw;
+    }
+    
+    .remove-mobile{
+        display: none !important;
+    }
+
+    .block-mobile{
+        display: block;
+    }
+
+    .block-mobile h5:nth-child(1){
+        margin-right: 0;
+        font-size: 3.5vw; 
+    }
+    
+    .block-mobile h5:nth-child(2){
+        font-size: 3.5vw;  
+    }
+
+    /* hr estilizando */
+    .hr{
+        width: 100%;
+        height: 0.3vw;
+        display: flex;
+        background-color: #EBEBEB;
+    }
+    
+    
+    /* container aonde se clicar no input aparece */
+    .container-clicked{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 1.2vw; 
+    }
+    
+    
+    /* mensagem enter */
+    .enter-pledge{
+        width: 40vw;
+        height: 3.6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    .enter-pledge p{
+        font-size: 3.5vw;
+    }
+    
+    /* container monay */
+    .button-money-confirm{
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .money{
+        width: 22vw;
+        height: 10vw;
+        border-radius: 5vw;
+        border: 0.4vw solid #EBEBEB;
+        margin-right: 5vw;
+        margin-bottom: 3vw;
+    }
+    
+    .money h5{
+        color : #C0C0C0;
+        font-size: 3.5vw;
+        margin-right: 1vw;
+    }
+    
+    .money strong{
+        font-size: 3.5vw;
+    }
+    
+    
+    
+    /* sgundo botao continue */
+    .confirm{
+        width: 22vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin-right: 0;
+        margin-bottom: 3vw;
+    }
+    
+    .confirm p{
+        font-size: 3vw;
+    }
+    
+    
+    /* Submodal de confirmação*/
+    .subModal{
+        width: 86%;
+        height: 83vw;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        border: 0.001vw solid #EFEFEF;
+        top: 33.5%;
+        left: 7%;
+    }
+    
+    .subModal img{
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+        width: 14vw;
+    }
+    
+    .subModal h3{
+        font-size: 4.5vw;
+        margin-bottom: 5vw;
+    }
+    
+    .subModal p{
+        width: 70vw;
+        font-size: 3.5vw;
+        line-height: 5vw;
+        margin-bottom: 7vw;
+    }
+    
+    .button-gotIt{
+        width: 22vw;
+        height: 10vw;
+        border-radius: 5vw;
+    }
+    
+    .button-gotIt h4{
+        font-size: 3vw;
+    }
+
+
+    /* Menu */
+    .menu{
+        margin: 0 auto;
+        width: 86%;
+        height: 43vw;
+        position: absolute;
+        top: 21.9%;
+        left: 7%;
+        background-color: #fff;
+        border-radius: 3vw;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+    }
+
+    .menu .hr{
+        height: 0.3vw;
+        background-color: #ECECEC;
+    }
+
+    .menu h2{
+        margin-top: 4.5vw;
+        margin-bottom: 4.5vw;
+        margin-left: 4.5vw;
+        font-size: 3.55vw;
+    }
+
+    .menu-img{
+        width: 4.5vw;
+        position: absolute;
+        top: 8.5%;
+        right: 5%;
+    }
+
+}

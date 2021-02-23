@@ -9,8 +9,7 @@
 
 body{
     width: 100vw;
-    height: 100%;
-    
+    height: 100%; 
 }
 
 .background-color{
@@ -37,7 +36,7 @@ header{
     justify-content: space-between;
 }
 
-.container-header img{
+.logo{
     width: 10vw;
 }
 
@@ -174,7 +173,7 @@ main .container-mastercraft #mastercraft{
 
 .container-button-bookmark img{
     width: 4.5vw;
-    /* margin-right: 1.2vw; */
+    margin-right: 1vw;
 }
 
 .container-button-bookmark a{
@@ -331,7 +330,7 @@ main .container-mastercraft #mastercraft{
     margin: 0 auto;
     width: 86.7%;
     height: 16vw;
-    border: 1px solid #DBDBDB;
+    border: 0.06vw solid #DBDBDB;
     border-top-left-radius: 0.6vw;
     border-top-right-radius: 0.6vw;
     border-bottom-left-radius: 0.6vw;
@@ -358,7 +357,6 @@ main .container-mastercraft #mastercraft{
 .container-title p{
     font-size: 1.2vw;
     color: #7CBBB7;
-    text-shadow: 1px 0px #C4FFFF;
 }
 
 
@@ -487,6 +485,10 @@ main .container-mastercraft #mastercraft{
     transition: 0.5s;
 }
 
+.button-close-modal img{
+    width: 1.5vw;
+}
+
 .button-close-modal:hover{
     transform: rotateZ(-90deg)
 }
@@ -595,7 +597,7 @@ main .container-mastercraft #mastercraft{
     margin-top: 2vw;
 }
 
-.container-selection-top-left h5{
+.container-selection-top-left .block-mobile h5{
     font-size: 1vw;
     transition: 0.2s;
     cursor: pointer;
@@ -605,18 +607,6 @@ main .container-mastercraft #mastercraft{
     pointer-events: none;
 }
 
-.container-selection-top-left h5:nth-child(2){
-    margin-right: 1vw;
-    
-}
-
-.container-selection-top-left h5:nth-child(2):hover{
-    color: #64A399;
-}
-
-.container-selection-top-left h5:nth-child(3){
-    color: #64A399;
-}
 
 .container-selection-top-right{
     display: flex;
@@ -633,11 +623,29 @@ main .container-mastercraft #mastercraft{
     margin-left: 0.3vw;
 }
 
+.block-mobile{
+    display: flex;
+}
+
+.block-mobile h5:nth-child(1){
+    margin-right: 2vw;
+    font-size: 1vw; 
+}
+
+.block-mobile h5:nth-child(2){
+    font-size: 1vw;
+    color: #5CAEA9;
+}
+
+.block-mobile h5:nth-child(1):hover{
+    color: #5CAEA9;  
+}
+
 
 /* hr estilizando */
 .hr{
     width: 100%;
-    height: 0.16vw;
+    height: 0.2vw;
     display: flex;
     background-color: #EBEBEB;
 }
@@ -740,10 +748,6 @@ main .container-mastercraft #mastercraft{
     position: absolute;
     top: 70%;
     left: 31%;
-}
-
-.hidden{
-    display: none;
 }
 
 

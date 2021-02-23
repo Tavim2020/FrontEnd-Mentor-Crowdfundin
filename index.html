@@ -13,6 +13,7 @@
 
   <!-- style -->
   <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./style/responsive.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -41,7 +42,7 @@
 
       <div class="container-header">
 
-        <img src="./images/logo.svg" alt="Logo">
+        <img class="logo" src="./images/logo.svg" alt="Logo">
 
         <nav>
 
@@ -79,7 +80,7 @@
 
         <div class="container-p">
 
-          <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+          <p>A beautiful handcrafted monitor stand to reduce neck and eye strain.</p>
 
         </div>
 
@@ -310,7 +311,7 @@
 
   </div>
 
-  <section id="modal" class="modal hidden">
+  <section id="modal" class="modal hidden remove-mobile">
 
     <div class="title-modal">
 
@@ -338,7 +339,7 @@
 
         <div class="inputRadio">
 
-          <span class="hidden"></span>
+          <span class="hidden remove-mobile"></span>
 
         </div>
 
@@ -365,18 +366,22 @@
 
             <div class="inputRadio">
 
-              <span class="hidden"></span>
+              <span class="hidden remove-mobile"></span>
 
             </div>
 
-            <h5 class="title-container">Bamboo Stand</h5>
+            <div class="block-mobile">
 
-            <h5>Pledge $25 or more</h5>
+              <h5 class="title-container">Bamboo Stand</h5>
+
+              <h5>Pledge $25 or more</h5>
+
+            </div>
 
           </div>
 
 
-          <div class="container-selection-top-right">
+          <div class="container-selection-top-right remove-mobile">
 
             <h5>101</h5>
             <h5>left</h5>
@@ -391,16 +396,23 @@
           Backer member list.
         </p>
 
+        <div class="hidden numberLeft">
+
+          <h5>101</h5>
+          <h5>left</h5>
+
+        </div>
+
 
       </div>
 
 
 
-      <span class="hr hidden"></span>
+      <span class="hr hidden remove-mobile"></span>
 
 
 
-      <div class="container-clicked hidden">
+      <div class="container-clicked hidden remove-mobile">
 
         <div class="enter-pledge">
 
@@ -441,18 +453,22 @@
 
             <div class="inputRadio">
 
-              <span class="hidden"></span>
+              <span class="hidden remove-mobile"></span>
 
             </div>
 
-            <h5 class="title-container">Black Edition Stand</h5>
+            <div class="block-mobile">
 
-            <h5>Pledge $75 or more</h5>
+              <h5 class="title-container">Black Edition Stand</h5>
+
+              <h5>Pledge $75 or more</h5>
+
+            </div>
 
           </div>
 
 
-          <div class="container-selection-top-right">
+          <div class="container-selection-top-right remove-mobile">
 
             <h5>64</h5>
             <h5>left</h5>
@@ -466,16 +482,23 @@
           You’ll be added to our Backer member list. Shipping is included.
         </p>
 
+        <div class="hidden numberLeft">
+
+          <h5>64</h5>
+          <h5>left</h5>
+
+        </div>
+
 
       </div>
 
 
 
-      <span class="hr hidden"></span>
+      <span class="hr hidden remove-mobile"></span>
 
 
 
-      <div class="container-clicked hidden">
+      <div class="container-clicked hidden remove-mobile">
 
         <div class="enter-pledge">
 
@@ -516,18 +539,22 @@
 
             <div class="inputRadio">
 
-              <span class="hidden"></span>
+              <span class="hidden remove-mobile"></span>
 
             </div>
 
-            <h5 class="event-h5">Mahogany Special Edition</h5>
+            <div class="block-mobile">
 
-            <h5>Pledge $200 or more</h5>
+              <h5 class="event-h5">Mahogany Special Edition</h5>
+
+              <h5>Pledge $200 or more</h5>
+
+            </div>
 
           </div>
 
 
-          <div class="container-selection-top-right">
+          <div class="container-selection-top-right remove-mobile">
 
             <h5>0</h5>
             <h5>left</h5>
@@ -542,16 +569,23 @@
           Shipping is included.
         </p>
 
+        <div class="hidden numberLeft">
+
+          <h5>0</h5>
+          <h5>left</h5>
+
+        </div>
+
 
       </div>
 
 
 
-      <span class="hr hidden"></span>
+      <span class="hr hidden remove-mobile"></span>
 
 
 
-      <div class="container-clicked hidden">
+      <div class="container-clicked hidden remove-mobile">
 
         <div class="enter-pledge">
 
@@ -584,7 +618,7 @@
   </section>
 
 
-  <section id="subModal" class="subModal hidden">
+  <section id="subModal" class="subModal hidden remove-mobile">
 
     <img src="./images/icon-check.svg" alt="Icone-Checked">
 
@@ -605,6 +639,25 @@
 
   </section>
 
+  <section>
+
+    <img class="hidden menu-img" src="./images/icon-hamburger.svg" alt="Menu">
+
+    <div class="menu hidden remove-mobile">
+
+      <h2>About</h2>
+
+      <span class="hr"></span>
+
+      <h2>Discover</h2>
+
+      <span class="hr"></span>
+
+      <h2>Get Started</h2>
+
+    </div>
+
+  </section>
 
 
 </body>
