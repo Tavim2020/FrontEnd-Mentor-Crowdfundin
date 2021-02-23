@@ -327,10 +327,23 @@
         padding-top: 5vw;
         margin-bottom: 4vw;
     }
-    
-    .title-modal h3{
-        font-size: 4vw;
+
+    .title-button{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         margin-bottom: 3.5vw;
+    }
+    
+    .title-modal .title-button h3{
+        font-size: 4vw;
+    }
+    
+    /* botão de fechar o modal */
+    .title-button img{
+        width: 3vw;
     }
     
     
@@ -338,15 +351,6 @@
         font-size: 3.6vw;
     }
     
-    /* botão de fechar o modal */
-    .button-close-modal{
-        top: 2.4%;
-        right: 8%;
-    }
-
-    .button-close-modal img{
-        width: 3vw;
-    }
     
     /* primeiro container sem a parte de clicar apos clicar no input */
     .container-first{

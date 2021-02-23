@@ -65,7 +65,7 @@ buttonThisProject.addEventListener('click', ()=>{
 
 
 // botão para fechar modal
-var buttonCloseModal = document.querySelector('.button-close-modal');
+var buttonCloseModal = document.querySelector('#button-close-modal');
 
 
 buttonCloseModal.addEventListener('click', ()=>{
